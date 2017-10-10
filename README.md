@@ -9,7 +9,7 @@
 本ビューアーは、断面図上の位置に対応する平面図上の位置に印を表示するとともに、平面図を回転させて、両図面の対比を容易にします。基本版と応用版の2種類があります。なお、本ビューアーにはメタ情報や凡例の表示など、公開中の他のビューアーの機能を組み入れております。
 
 基本版に関するもの  
-　ol4_50k_section.htm  
+　ol4_50k_section.html  
 　lib/ol4_50k_section.js  
 　css/ol4_50k_section.css  
 　images_section/GSJ_MAP_G050_11030_1989_S1.jpg  
@@ -24,10 +24,10 @@
 　lib/ol4_50k_sec.js  
 　lib/ol4_50k_sec_d.js  
 　css/ol4_50k_sec.css  
-　images/download_ref.jpg  
+　images_section/download_ref.jpg  
 　images_section/marker-red.png  
 　images_section/marker-blue.png  
-　images_section/
+　images_section/ 以下のjpgファイル
 
 本ソースコードの実行には、以下のオープンソースライブラリを必要とします。
 
