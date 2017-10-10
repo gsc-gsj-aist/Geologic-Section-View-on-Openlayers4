@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-color: #ddd;
+}
+.frameA{
+	width: 72%;
+	float: left;
+	margin: 5px;
+}
+.frameB{
+	width: 25%;
+	float: left;
+	margin: 5px;
+}
+#map_1 {
+	float: left;
+	height: 550px;
+	width: 100%;
+}
+.sel_form{
+	font-size: small;
+	float: left;
+	width: 150px;
+	margin: 7px 0px 2px 0px;
+}
+.resize{
+	font-size: small;
+	float: left;
+	margin: 7px 0px 2px 0px;
+}
+#img_section {
+	width: 100%;
+	overflow: auto;
+}
+#img_section_canvas {
+	border: 1px solid #ccc;
+}
+#meta_info{
+	background: #fff;
+}

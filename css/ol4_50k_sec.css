@@ -1,0 +1,130 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-color: #F5F5F5;
+	margin: 4px;
+}
+.frame-A {
+	visibility: hidden;
+	float: left;
+	width: 12%;
+	text-align: left;
+	overflow: hidden;
+	margin: 4px;
+}
+p {
+	font-size: small;
+	font-family: Arial,Verdana,Times;
+	text-align: center;
+	white-space: nowrap;
+	background-color: #9CBCE2;
+}
+.ol-rotate{
+	font-size: 24px;
+}
+p.meta_2 {
+	font-size: 10px;
+	text-align: center;
+	padding: 3px;
+	background-color: #c0c0c0;
+}
+.set-map {
+	font-size: small;
+	font-weight: bold;
+	padding: 0px 0px 0px 8px;
+}
+.set-map2 {
+	font-size: small;
+	font-weight: bold;
+	padding: 8px 0px 0px 8px;
+}
+#sheeet_name {
+	font-size: small;
+	text-align: left;
+	font-weight: bold;
+	width: 100%;
+	padding: 0px 0px 0px 8px;
+}
+#sheet_abstract {
+	width: 100%;
+	font-size: x-small;
+	word-wrap: break-word;
+	padding: 0px 0px 0px 8px;
+}
+#sheet_reference {
+	font-size: small;
+	padding: 0px 0px 0px 8px;
+}
+#select_polygon {
+	font-size: x-small;
+}
+#layer_components {
+	font-size: x-small;
+	padding: 0px 0px 0px 8px;
+}
+.select-sec {
+	font-size: small;
+}
+.resize{
+	font-size: small;
+	padding: 10px 0px 0px 10px;
+}
+#seamless_ver {
+	font-size: small;
+}
+.frame-B {
+	float: left;
+	width: 60%;
+	height: 30%;
+	margin: 4px;
+}
+#map_0{
+	float: left;
+	width: 100%;
+	height: 550px;
+	clear: both;
+	background-color: white;
+	overflow: hidden;
+	cursor: crosshair;
+}
+
+#img_section {
+	width: 100%;
+	overflow: auto;
+}
+.frame-C {
+	float: left;
+	width: 25%;
+	margin: 4px;
+}
+#meta_info {
+	background-color: white;
+	font-size: 12px;
+	padding: 0px 0px 3px 0px;
+}
+#seamless_table {
+	font-size: 12px;
+	width: 100%;
+	border-spacing: 0px;
+	padding: 3px;
+}
+#seamless_table tr:nth-child(2n) {
+	background-color: #dcdcdc;
+}
+#legend_group {
+	visibility: hidden;
+	text-align: center;
+	font-size: small;
+	padding: 3px;
+	margin: 6px 0px 0px 0px;
+	background-color: #9CBCE2;
+}
+#legend_disp {
+	visibility: hidden;
+	font-size: small;
+	background-color: white;
+	overflow: auto;
+	width: 100%;
+}

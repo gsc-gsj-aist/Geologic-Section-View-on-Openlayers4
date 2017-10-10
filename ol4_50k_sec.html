@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cross section viewer on Openlayers 4</title>
+		<meta http-equiv = "X-UA-Compatible" content = "IE=edge" />
+		<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8"/>
+		<meta name = "description" content = "本htmlファイルは産総研地質調査総合センターで公開しているサンプルです。詳しい情報は https://gbank.gsj.jp/owscontents/ol4_example.html にあります。">
+		<link rel = "stylesheet" href = "https://openlayers.org/en/v4.3.3/css/ol.css" type = "text/css">
+		<link rel = "stylesheet" type = "text/css" href = "css/ol4_50k_sec.css"/>
+		<script type="text/javascript" src = "https://openlayers.org/en/v4.3.3/build/ol.js"></script>
+		<script type="text/javascript" src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src = "lib/ol4_50k_sec_d.js"></script>
+	</head>
+<body>
+	<div class = "frame-A" id = "frame_a">
+		<div id = "home_btn"></div>
+		<hr>
+		<div id = "sheeet_name"></div>
+		<div id = "sheet_abstract"></div>
+		<div id = "sheet_reference"></div>
+		<hr>
+		<div>
+			<form name = "form_1">
+			<div class = "set-map">レイヤー構成：</div>
+				<select id = "select_polygon" size = "1">
+					<option value = "">ポリゴンの選択</option>
+				</select>
+			<div id = "layer_components"></div>
+			<hr>
+			<div class = "set-map">ベース地図：</div>
+				<select id = "select_base" class = "form-control" size = "1">
+					<option value = "base_1" selected>標準地図</option>
+					<option value = "base_2">傾斜量図</option>
+					<option value = "base_3">陰影起伏図</option>
+				</select>
+			<div class = "set-map2">重ね合せ：</div>
+				<select id = "select_blend" class = "form-control" size = "1">
+					<option value = "multiply" selected>multiply</option>
+					<option value = "source-over">source-over</option>
+					<option value = "destination-over">destination-over</option>
+				</select>
+			</form>
+		</div>
+		<hr>
+		<div class = "set-map">シームレス地質図情報：</div>
+		<form name = "mapSel">
+			<select id = "seamless_ver" class = "form-control" size = "1">
+				<option value = "basic_version" selected>基本版</option>
+				<option value = "detailed_version">詳細版</option>
+			</select>
+		</form>
+		<hr>
+		<div class = "select-sec">
+			<div class = "set-map">断面図：</div>
+			<form name = "image_select">
+				<select name = "img_sel" id = "image_selection">
+					<option value = "">-- 選択 --</option>
+				</select>
+			</form>
+		</div>
+		<div class = "resize">
+			<form name = "resize" id = "resize_btn" action = ""><b>断面図高さ：</b></br>
+				<input  type = "radio" id = "radio_y" name = "resize_btn" checked = "checked">
+				<label for = "radio_y">調整</label>
+				<input type = "radio" id = "radio_n" name = "resize_btn">
+				<label for = "radio_n">原寸</label>
+			</form>
+		</div>
+	</div>
+	<div class = "frame-B">
+		<div id = "map_0"></div>
+		<div id = "img_section">
+			<canvas id = "img_section_canvas"></canvas>
+		</div>
+	</div>
+	<div class = "frame-C" id = "frame_c">
+		<div id = "meta_info"></div>
+		<div id = "legend_group"></div>
+		<div id = "legend_disp"></div>
+	</div>
+	<script type="text/javascript" src = "lib/ol4_50k_sec.js"></script>
+</body>
+</html>

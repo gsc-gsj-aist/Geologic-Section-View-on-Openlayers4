@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cross section viewer on Openlayers 4</title>
+		<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+		<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8">
+		<link rel = "stylesheet" type = "text/css" href = "https://openlayers.org/en/v4.3.3/css/ol.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/ol4_50k_section.css">
+		<script src = "https://openlayers.org/en/v4.3.3/build/ol.js"></script>
+		<script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+		<div class = "frameA">
+			<div id = "map_0"></div>
+			<div>
+				<div class = "sel_form">
+					<form name = "image_select"><b>断面図</b>
+						<select name="img_sel" id = "imageSelection">
+							<option value = "">-- 選択 --</option>
+						</select>
+					</form>
+				</div>
+				<div class ="resize">
+					<form name ="resize" id ="radio_resize" action = ""><b>断面図高さ</b>
+						<input  type = "radio" id = "radio_y" name = "radio_resize"checked ="checked">
+						<label for = "radio_y">調整</label>
+						<input type = "radio" id = "radio_n" name = "radio_resize">
+						<label for = "radio_n">原寸</label>
+					</form>
+				</div>
+			</div>
+			<div id = "img_section">
+				<canvas id = "img_section_canvas"></canvas>
+			</div>
+		</div>
+		<div class = "frameB">
+			<div id = "meta_info"></div>
+		</div>
+		<script src = "lib/ol4_50k_section.js"></script>
+	</body>
+</html>
