@@ -1,0 +1,2 @@
+# Geologic-Section-View-on-Openlayers4
+地質断面図と地質平面図の対比を容易にする、5万分の1地質図幅閲覧のためのJavascriptソースコードの例
