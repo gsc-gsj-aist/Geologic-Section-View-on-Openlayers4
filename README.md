@@ -1,5 +1,5 @@
 # Geologic-Section-View-on-Openlayers4
-*概要*
+*概要*  
 地質断面図と地質平面図の対比を容易にする、5万分の1地質図幅閲覧のためのJavascriptソースコードの例
 
 　産総研知的財産管理番号：H29PRO-2125
